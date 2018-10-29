@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6902" started-at="2018-10-24T23:53:11Z" finished-at="2018-10-24T23:53:18Z">
+  <suite name="Default suite" duration-ms="11873" started-at="2018-10-29T20:12:01Z" finished-at="2018-10-29T20:12:13Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@10bdf5e5]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@69ea3742]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="6902" started-at="2018-10-24T23:53:11Z" finished-at="2018-10-24T23:53:18Z">
+    <test name="Default test" duration-ms="11873" started-at="2018-10-29T20:12:01Z" finished-at="2018-10-29T20:12:13Z">
       <class name="com.app.runners.CukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@10bdf5e5]" name="setUpClass" is-config="true" duration-ms="137" started-at="2018-10-24T23:53:11Z" finished-at="2018-10-24T23:53:11Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@69ea3742]" name="setUpClass" is-config="true" duration-ms="307" started-at="2018-10-29T20:12:01Z" finished-at="2018-10-29T20:12:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@10bdf5e5]" name="runScenario" duration-ms="6666" started-at="2018-10-24T23:53:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-24T23:53:18Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@69ea3742]" name="runScenario" duration-ms="9262" started-at="2018-10-29T20:12:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-29T20:12:11Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@10bdf5e5]" name="tearDownClass" is-config="true" duration-ms="41" started-at="2018-10-24T23:53:18Z" finished-at="2018-10-24T23:53:18Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@69ea3742]" name="runScenario" duration-ms="1989" started-at="2018-10-29T20:12:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-10-29T20:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout from OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@69ea3742]" name="tearDownClass" is-config="true" duration-ms="168" started-at="2018-10-29T20:12:13Z" finished-at="2018-10-29T20:12:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

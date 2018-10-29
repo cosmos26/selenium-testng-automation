@@ -9,7 +9,9 @@ import com.app.pages.LoginPage;
 import com.app.utilities.ConfigurationReader;
 import com.app.utilities.Driver;
 
-import cucumber.api.java.en.*;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
 
 public class LoginStepDefinitions {
 	private WebDriver driver = Driver.getDriver();
