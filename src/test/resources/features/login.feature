@@ -1,6 +1,6 @@
 Feature: Login with valid username and password
 
- 
+ @LoginTests
   Scenario: User can login
     Given I go to OrangeHRM
     When I go to OrangeHRM, page title should be "OrangeHRM"
