@@ -23,4 +23,7 @@ public class DashboardPage {
 	
 	@FindBy(xpath="//*[@id='aboutDisplayLink']")
 	public WebElement aboutButton;
+	
+	@FindBy(xpath="//*[@id='menu_pim_viewPimModule']")
+	public WebElement PIM;
 }
